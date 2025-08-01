@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 80vh;
+    background-image: url("./images/Moonwalking-The-Plank-The-Lifecycle-Of-A-Background-Dancer-.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    gap: 3rem;
+    justify-content: end;
+    padding-top: 2rem;
+    padding-right: 3rem;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.bannerTitle {
+    max-width: 400px;
+    margin: 5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerTitle > h1 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+
+section {
+    background-color: #232323;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribeWrapper {
+    max-width: 80%;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.formWrapper{
+   width: 200px;
+}
+
+.stobm {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.inputCont {
+    border-bottom: 1px solid #484747;
+    margin-bottom: 1rem;
+}
+
+.inputCont > input {
+    width: 50%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-block: .4rem;
+}
+
+.inputCont > input::placeholder {
+    text-transform: uppercase;
+    font-size: 8px;
+    color: #484747;
+    letter-spacing: .2rem;
+}
+
+.submitBtn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.submitBtn > button {
+    text-transform: uppercase;
+    font-size: 10px;
+    background-color: transparent;
+    border: none;
+    color: #484747;
+    letter-spacing: 0.1rem;
+}
+
+.infomap {
+   width: 200px;
+}
+
+.infomap > h1 {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.infomap > p {
+    color: #a5a5a5;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    width: 100%;
+    line-height: 2.5;
+}
+
+span {
+    font-weight: bold;
+    text-transform: none;
+}
+
+.infoIcons {
+    background-color: none;
+}
+
+.imageMap {
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid #484747;
+}
